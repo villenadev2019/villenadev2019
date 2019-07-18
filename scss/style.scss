@@ -1,7 +1,20 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 
-$font-primary: 'Lato',Arial, sans-serif;
+@font-face {
+	font-family: 'eventbriteFont';
+	// src:  url('../fonts/neueplak/NeuePlak-NarrowBlack.eot?6tt51o');
+	// src:  url('../fonts/neueplak/NeuePlak-NarrowBlack.eot') format('embedded-opentype'),
+	//   url('../fonts/neueplak/NeuePlak-NarrowBlackttf?6tt51o') format('truetype'),
+	//   url('../fonts/neueplak/NeuePlak-NarrowBlack.woff?6tt51o') format('woff'),
+	//   url('../fonts/neueplak/NeuePlak-NarrowBlack.svg?6tt51o#icomoon') format('svg');
+	src: url('../fonts/neueplak/NeuePlak-Regular.ttf?6tt51o') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+  
+$font-primary: 'eventbriteFont',Arial, sans-serif;
 
 $white: #fff;
 $black: #000000;
