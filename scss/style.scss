@@ -5,10 +5,11 @@ $font-primary: 'Lato',Arial, sans-serif;
 
 $white: #fff;
 $black: #000000;
-$darken: #232931;
+$darken: #1E0A3C;
 
-$primary: #033fff;
-$secondary: #fbb901;
+$primary: #F05537;
+$secondary: #F05537;
+$section: #FFBA00;
 
 
 
@@ -473,7 +474,7 @@ h1, h2, h3, h4, h5,
 				outline: none !important;
 			}
 			&.active {
-				background: lighten($black, 70%);
+				background: lighten($darken, 70%);
 			}
 		}
 	}
@@ -509,7 +510,7 @@ h1, h2, h3, h4, h5,
 				bottom: 0;
 				left: 0;
 				right: 0;
-				background: $black;
+				background: $darken;
 				opacity: 0;
 			}
 			.slider-text {
@@ -535,7 +536,7 @@ h1, h2, h3, h4, h5,
 						bottom: 0;
 						left: 0;
 						right: 0;
-						background: $black;
+						background: $darken;
 						opacity: .4;
 					}
 					@include media-breakpoint-down(md){
@@ -1013,7 +1014,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-speakers{
 	// background: darken($primary,30%);
-	background: #0d0cb5;
+	background: #1E0A3C;
 }
 //STAFF
 .staff{
@@ -1574,7 +1575,7 @@ textarea.form-control {
 		margin-bottom: 5px;
 		text-transform: uppercase;
 		color: rgba(0,0,0,.2);
-		color: $secondary;
+		color: $section;
 		letter-spacing: 3px;
 	}
 	h2{
